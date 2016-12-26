@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/dbr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://dbr.me
+  * I am dbr (https://keybase.io/dbr) on keybase.
+  * I have a public key with fingerprint 69D6 2355 184E 214E 68E2  2BA4 577D 3E61 9394 E427
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01017d9c28b97d2bd6a4d25a30b8bb002e76d151cb100522525086b1d3f062023cf40a",
+            "fingerprint": "69d62355184e214e68e22ba4577d3e619394e427",
+            "host": "keybase.io",
+            "key_id": "577d3e619394e427",
+            "kid": "01017d9c28b97d2bd6a4d25a30b8bb002e76d151cb100522525086b1d3f062023cf40a",
+            "uid": "f27a7cecfb0d52b9e531327ea25a2319",
+            "username": "dbr"
+        },
+        "service": {
+            "hostname": "dbr.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1462613071,
+    "expire_in": 157680000,
+    "prev": "d4c7d9dc1fab51e38ba1a9fe93e23200609a6e708feae99e443e8a90ce8f3920",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMIdAnicrVJbSFRBGN61TWtNrSi6qCUHgqTNZubct/JFy0hJJEOK8HDmzJztmO1Z
+d89uF3cxIUgrfDA2kIq2ByWMikCSwofKiC4vBVFaQYRYGF0oSLD7HCl66bF5mfn/
++b7v//+P/1beDI/fu6D49GSs/9MG7/0bx+KehtUDta0ctsl+LtjK7abTF20mNOZo
+uy3CBTkAAZSJaiAFqzJBmEi6QJCo8wArGAOAqCwRKEIDQwBEhEQkAkXCkPAmkBBA
+vGEKQOcCnGmFQzQaiVphh8lKKpEQL4pQESiCApUUihDWBVGWCU8lqPKqQAUkM+Iu
+O+YyWHNYj9Eyy2Y5FmjT7f0D/5/7jk/LmUjWZYMaJgZERFilIg95JFOdSSIeqi4w
+RqNhfQ9laIKjXCrAsUTCMqjrqTvE388y9ghwkajt2IbdzHK7HCcSdCnO/oiL2Uux
+9putYStMmHeMkKDRmGWHuSBkSMOxXDkoSEiCPJBhgKP7IlaUapaLEGVJAey4ZWjC
+LSsYzA9iQFPHIqS8gnWoqyZVeYp4BIAEVF2iMlBMqlNVpYLAU0VXgUEVk1cR4Nx5
+WsI202alHD3ENGNWKKw78SjlUjev7/R5vH5P9swsd6k8/tlz/6za/JM5P7Xj29et
+6Au+L0Dp7jXz7NzCzhZPGldNaTu/pjI587KfpjB5kZ7zEI+ee3mpu3J4cORAW01y
+9vMnrZOlBU0li4phstFpSGwsm6waL9wc7y0Sv2f7itPatqaSu9fy6712ZWjlEl9V
+77d7hzNZSxLDMxYPmlfGz7652D9yeflUTfvRQyS+40gS3Xm2rXxgqCzVVl33mM/9
+mL8+9HXkQl9mLNmV6W4s6Zrfg9DQ2NUto6t6as905PknKpL15deK6t6VZBqHz59a
+9npiLWqf6LTKqwsjPys2fbjdU6o11+1p8qVHC6tzOx4snDAfvdoabP2yutq79O3l
+rM8/ag/OOtFbK/4CBZIv1w==
+=OAau
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dbr
+
+==================================================================
+
