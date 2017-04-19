@@ -7,8 +7,6 @@ env:
 addons:
   ssh_known_hosts:
   - dbr.me
-  - $DEPLOY_HOST
-  - 192.34.58.54
 cache:
   directories:
   - node_modules
@@ -29,6 +27,6 @@ before_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r $TRAVIS_BUILD_DIR/build $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH
+  script: rsync -r -v $TRAVIS_BUILD_DIR/build $DEPLOY_USER@dbr.me:$DEPLOY_PATH
   on:
     branch: master
