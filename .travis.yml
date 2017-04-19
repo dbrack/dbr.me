@@ -1,15 +1,35 @@
 language: node_js
+env:
+  global:
+  - secure: nMv37E9kjh/7gKa5f4fL7EHRz+66IVvfsO8k+SIBAsc3aq72N8SSS6WohPa9CiaqUYQXq+cFLWunIXevX+OdyE4r/PGeqSI0cLeG7hSDZ0vymT9e6HNPzxTMWN0o07YFPM5wMf1QTokmDsDWamLqDrDaeezxzPpLubESlNw9RQF3rvHtMving/UA7wHjVUvQhEvo/kpz6+CqqWhhXKmFPPOaZhn3g2qJRQ2qLTknDx9s3bh5rwnNgsf500Hcjcr72oX/Mssrjvrv9gKQbeXFSME6PvA/sM4r5lIgvgoenPuDDcMLZSSXPw8AKC7690kfMgqu9Qm8yjjdwxF3NW2wT/I81vvJoBHyWrDutJvt9ouCWzmPpzvwRgDOAIbMwUJBcG291xlqyO/iN0AV9BlhAnsjgyWgthbxZklCkrrIw9UwYTgMwgONsw5WenoFvBiMLbKpCsMXzlwnh8jYwSalhZlo+OXRxfVFuJmIMrVOBXiy0BuXaJOKauaGeYXXIzgojARQAI2QFlfPxoktNeu1HyZJGviCyWKqTK2SkACBuMB8Wjd4Skx7Fnfz75VwwNfXg4sCaM/ZJzDZYOT/kYnl2NYeFHSajWeAtB1TCVtFcJb6b230gw+HgglBVzr0p4R58O/zjo64T94KihaQGsNzfbS6v3/UNIrdeY5GUWHnxZM=
+  - secure: zu1tDAjj5HF+SRM6TePyAfx+NKwL/Irx6vPXHnk5IfKXmoAufvl6n0BP1GY3/aInI2jUFCeocGmQvWPqIfuxEvgS6eUY73ZqroSoPa8lsHVVe/wV3fHNCO9sMFNSCcfhdwi2SxgeaiSwpY9hAwZPvt2+xT4wfoXOs87QypdN/2zji7bjXoHNvYV+Cw0sqBzSQ2IqebrDZ+fViRkfphCrAd7Sl5bDLORcscL6RitlqdaC0Tg4XTid3YXiAxN91Xkh/e+qajsUUGI4Tlvf4E7CX5kOQYAeLjAciGT+ICL6eZJM1Ye4Vc6u8K/KaiAZDPMXvAux4q+z4TXSqq5iOaVP8HyZLXwKF1QstPu0xhaRBPPR6fqZYWlWIGVUUYJhYe2MnbDSb18hiMFyNZt1NBaQMu3zyRovOfgoomZVW+I+4n1ZlDZX+WaAcRqBtQ0Ou+TRFC06Tzz5yUlAugEZkGFIhXRtVc7QjXeBWxtEQXAOQxpB5ctuS0Z7lHIEUamowGNmoOIyKNyDDXZARm93305C7RkjTwhsF7aV9twHLjvVt0iuf2GELRhFB/lVcGOttTQfc/Gf9l9L/JQnHuXRHsNJdyBMBlwI5zgV+FFF5B0dmSpNMRJCDGwtVjyy8sQXOPf+jiroOrgjZL+o++TQKt3PJJZnw/UKFDo99AXHrnnidTE=
+  - secure: wH0p+JldDNU8Xbao+s7XkvT58CP3pWDEctZBwv/dWzJHcCWhezK2YnMwcDi7UT8gkoR2Hfsek8LS1BRiXNrmrH/TC7bQsxykq3Srs04kMJXBrCQFmmfGPYq4RN7rZ+sxO8TSBw15RBc1QMiicER/gt/i/hSMFAI+IpZxxwNT4hX4teXjGJOZq2/iksN0Sj61yGFSBOYZ1xNgtqP1W50Mj+wcwcklbWwh4xZg6eEzf+WnZFEdOR71YJQBM5DdNZHuK9LsHZ/kgtRvY1p4/OWMiea3E4RmUfz7fn198OHCt3OOKuo2KvnDHCML6xLfZgIiW5kMwOAx0YPrJHdS8EOXtbyrcg8iAVi273Lk5suYbbFib1zL4c1FlkKJPZ/AfJ0WQ+CU+Rc+dLDdD67I3QNOVYQ/+9/mTnLtRxm4fH0ne5V/1O33nBiFjPv0wNdLXOTrgqlagJXumLnwp7pF7uSPxbGnrGo+sS+7DO3Ep5sOoXJC1LwB9DfKC3dYf9W6dGP3cl8qd/dd0hQLX27BLfUaE8a7vuORzouJ0/hvyIQyfjVdFr/PFhUFvtvEYMHRAXVW0NciRA6T6S4iUz49C/4HgFwzSLnJcnq7siliXGhvfCu5jAcj0FlJWXko6ZsmnFRRlyUJHA2fwQ9w6G522Xji5VDPN9e3PG3Bg7rSS3eQQG4=
 cache:
   directories:
-    - node_modules
+  - node_modules
 install: true
 notifications:
   email: false
 node_js:
-  - '6'
+- '6'
 before_script:
-  - npm prune
+- npm prune
 after_success:
 branches:
   except:
-    - /^v\d+\.\d+\.\d+$/
+  - "/^v\\d+\\.\\d+\\.\\d+$/"
+before_install:
+- openssl aes-256-cbc -K $encrypted_70266334fac6_key -iv $encrypted_70266334fac6_iv
+  -in deploy_rsa.enc -out deploy_rsa -d
+before_deploy:
+- openssl aes-256-cbc -K $encrypted_70266334fac6_key -iv $encrypted_70266334fac6_iv -in deploy_rsa.enc
+  -out /tmp/deploy_rsa -d
+- eval "$(ssh-agent -s)"
+- chmod 600 /tmp/deploy_rsa
+- ssh-add /tmp/deploy_rsa
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/build $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH
+  on:
+    branch: master
