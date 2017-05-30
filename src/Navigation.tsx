@@ -3,7 +3,7 @@ import styled from 'styled-components';
 // import Section from './Section';
 import {TwitterIcon, GitHubIcon, LinkedInIcon} from './Icons';
 
-const Navigation = styled.nav`
+const StyledNavigation = styled.nav`
 	text-align: center;
 	font-size: 2em;
 	width: 100%;
@@ -29,9 +29,9 @@ const NavigationLink = styled.a`
 	transform-origin: bottom;
 `;
 
-const BottomNavigation = () => {
+const Navigation = () => {
 	return (
-		<Navigation>
+		<StyledNavigation>
 			<NavigationList>
 				<NavigationItem>
 					<NavigationLink href="https://linkedin.com/in/dominikbrack" title="LinkedIn" rel="me">
@@ -49,8 +49,8 @@ const BottomNavigation = () => {
 					</NavigationLink>
 				</NavigationItem>
 			</NavigationList>
-		</Navigation>
+		</StyledNavigation>
 	);
 };
 
-export default BottomNavigation;
+export default Navigation;

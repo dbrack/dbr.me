@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Header from './Header';
-import BottomNavigation from './BottomNavigation';
+import Navigation from './Navigation';
 import {injectGlobal} from 'styled-components';
 
 /* tslint:disable:no-unused-expression */
@@ -23,7 +23,7 @@ const App = () => {
 	return (
 		<div>
 			<Header />
-			<BottomNavigation />
+			<Navigation />
 		</div>
 	);
 };
