@@ -34,7 +34,7 @@ const BottomNavigation = () => {
 		<Navigation>
 			<NavigationList>
 				<NavigationItem>
-					<NavigationLink href="https://linkedin.com/in/dominik-brack" title="LinkedIn" rel="me">
+					<NavigationLink href="https://linkedin.com/in/dominikbrack" title="LinkedIn" rel="me">
 						<LinkedInIcon />
 					</NavigationLink>
 				</NavigationItem>
