@@ -1,6 +1,5 @@
 import * as React from 'react';
 import styled from 'styled-components';
-// import Section from './Section';
 import {TwitterIcon, GitHubIcon, LinkedInIcon} from './Icons';
 
 const StyledNavigation = styled.nav`
