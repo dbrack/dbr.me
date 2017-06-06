@@ -14,13 +14,13 @@ const TagLine = styled.span`
 	&::before {
 		content: open-quote;
 		font-weight: bolder;
-		color: #6f6e6e;
+		color: rgba(255, 255, 255, .5);
 		font-size: 1.6em;
 	}
 	&::after {
   	content: close-quote;
 		font-weight: bolder;
-		color: #6f6e6e;
+		color: rgba(255, 255, 255, .5);
 		font-size: 1.6em;
 	}
 `;
@@ -29,7 +29,9 @@ const Header = () => {
 	return (
 		<Section>
 			<Title>Dominik Brack</Title>
-			<TagLine>Lifelong learner. Agile thinker. Passionate web developer.</TagLine>
+			<TagLine>
+				Lifelong learner. Agile thinker. Passionate web developer.
+			</TagLine>
 		</Section>
 	);
 };

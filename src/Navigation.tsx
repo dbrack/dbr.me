@@ -19,7 +19,7 @@ const NavigationItem = styled.li`
 `;
 
 const NavigationLink = styled.a`
-	color: #444343;
+	color: rgba(255, 255, 255, .25);
 	&:hover,
 	&:active {
 		color: #efefef;
@@ -33,17 +33,29 @@ const Navigation = () => {
 		<StyledNavigation>
 			<NavigationList>
 				<NavigationItem>
-					<NavigationLink href="https://linkedin.com/in/dominikbrack" title="LinkedIn" rel="me">
+					<NavigationLink
+						href="https://linkedin.com/in/dominikbrack"
+						title="LinkedIn"
+						rel="me"
+					>
 						<LinkedInIcon />
 					</NavigationLink>
 				</NavigationItem>
 				<NavigationItem>
-					<NavigationLink href="https://github.com/dbrack" title="Github" rel="me">
+					<NavigationLink
+						href="https://github.com/dbrack"
+						title="Github"
+						rel="me"
+					>
 						<GitHubIcon />
 					</NavigationLink>
 				</NavigationItem>
 				<NavigationItem>
-					<NavigationLink href="https://twitter.com/_bracky" title="Twitter" rel="me">
+					<NavigationLink
+						href="https://twitter.com/_bracky"
+						title="Twitter"
+						rel="me"
+					>
 						<TwitterIcon />
 					</NavigationLink>
 				</NavigationItem>

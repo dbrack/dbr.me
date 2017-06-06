@@ -6,7 +6,7 @@ import {injectGlobal} from 'styled-components';
 /* tslint:disable:no-unused-expression */
 injectGlobal`
 	body {
-		background: #252525;
+		background: #24292e;
 		height: 100%;
 		margin: 0;
 		font: 16px Helvetica, sans-serif;
