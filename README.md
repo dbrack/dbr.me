@@ -4,5 +4,3 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [![Build Status](https://travis-ci.org/dbrack/dbr.me.svg?branch=master)](https://travis-ci.org/dbrack/dbr.me)
 
 dbr.me [website](http://dbr.me)
-
-Nothing more really than a placeholder.
