@@ -1,10 +1,9 @@
 import * as React from 'react';
 import Header from './Header';
 import Navigation from './Navigation';
-import {injectGlobal} from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
-/* tslint:disable:no-unused-expression */
-injectGlobal`
+const GlobalStyle = createGlobalStyle`
 	body {
 		background: #24292e;
 		height: 100%;
@@ -13,18 +12,18 @@ injectGlobal`
 		color: #efefef;
 		height: 50vh;
 		display: flex;
-  	justify-content: center;
-  	align-items: center;
+  		justify-content: center;
+  		align-items: center;
 	}
 `;
-/* tslint:enable:no-unused-expression */
 
 const App = () => {
 	return (
-		<div>
+		<React.Fragment>
 			<Header />
 			<Navigation />
-		</div>
+			<GlobalStyle />
+		</React.Fragment>
 	);
 };
 

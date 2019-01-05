@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import {TwitterIcon, GitHubIcon, LinkedInIcon} from './Icons';
+import { TwitterIcon, GitHubIcon, LinkedInIcon } from './Icons';
 
 const StyledNavigation = styled.nav`
 	text-align: center;
