@@ -14,13 +14,13 @@ const TagLine = styled.span`
 	&::before {
 		content: open-quote;
 		font-weight: bolder;
-		color: #30363d;
+		color: #6e7681;
 		font-size: 1.6em;
 	}
 	&::after {
   	content: close-quote;
 		font-weight: bolder;
-		color: #30363d;
+		color: #6e7681;
 		font-size: 1.6em;
 	}
 `;
