@@ -5,11 +5,11 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
 	body {
-		background: #24292e;
+		background: #0d1117;
 		height: 100%;
 		margin: 0;
 		font: 16px Helvetica, sans-serif;
-		color: #efefef;
+		color: #c9d1d9;
 		height: 50vh;
 		display: flex;
   		justify-content: center;
