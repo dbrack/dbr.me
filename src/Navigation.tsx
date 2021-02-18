@@ -19,10 +19,10 @@ const NavigationItem = styled.li`
 `;
 
 const NavigationLink = styled.a`
-	color: rgba(255, 255, 255, .25);
+	color: #30363d;
 	&:hover,
 	&:active {
-		color: #efefef;
+		color: #6e7681;
 	}
 	transition: 250ms cubic-bezier(.44,.39,.65,.94);
 	transform-origin: bottom;
